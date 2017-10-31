@@ -1,0 +1,15 @@
+/**
+ * Styles for a component.
+ *
+ * @name 			a
+ * @project 	hw
+ * @author 		Christian Blaschke <mail@platdesign.de>
+ * @since			October 31st 2017, 1:24:37 pm
+ */
+
+.component {
+	border: 1px solid green;
+	padding: 1em;
+
+	background: var(--ci-color);
+}

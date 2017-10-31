@@ -1,0 +1,21 @@
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Pug-Template for view.
+
+	@name			app
+	@project 	hw
+	@author 	Christian Blaschke <mail@platdesign.de>
+	@since		October 31st 2017, 1:15:43 pm
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+.view--app(:style="{ '--ci-color': color }")
+	h1 Hello World
+
+	h1 parent
+	div test (a): {{ test }}
+
+
+	a-comp(:a.sync="test")
+	b-comp(:a="test")
+
+	input(v-model="color", type="color")

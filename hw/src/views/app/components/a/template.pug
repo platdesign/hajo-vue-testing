@@ -1,0 +1,16 @@
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Pug-Template for component
+
+	@name			a
+	@project 	hw
+	@author 	Christian Blaschke <mail@platdesign.de>
+	@since		October 31st 2017, 1:24:37 pm
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+div(:class="$css.component")
+	p a: {{ _a }}
+	p b: {{ b }}
+
+	div
+		input(v-model="_a")
